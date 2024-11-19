@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+}
+
+.sidebar {
+    width: 35%;
+    background-color: #e9ecef;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+.slider-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    /*background-color: #007bff;*/
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    /*background-color: #0056b3;*/
+    background-color: #8f8f8f;
+}
+
+#output, .sidebar {
+    margin-top: 20px;
+}
+
+#probabilities-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#probabilities-list li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
